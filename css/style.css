@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.container h1 {
+  text-align: center;
+  margin: 50px auto;
+  font-family: sans-serif;
+}
+
+.container .kalkulator {
+  width: 300px;
+  background-color: #eaeaea;
+  margin: 50px auto;
+  padding: 7px;
+  border-radius: 5px;
+}
+
+.container .kalkulator #layar {
+  width: 100%;
+  padding: 15px 5px;
+  font-size: 15px;
+  outline: none;
+  border: 1px solid #cecece;
+  border-radius: 5px;
+  text-align: right;
+}
+
+.container .kalkulator .container__kalkulator {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.container .kalkulator .container__kalkulator .tombol {
+  border-top: none;
+  border-left: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 25%;
+  font-size: 20px;
+  color: gray;
+  font-weight: bold;
+  line-height: 70px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid #cecece;
+  cursor: pointer;
+}
+
+.container .kalkulator .container__kalkulator .tombol:hover {
+  background-color: #e4e4e4;
+}
+
+.container .kalkulator .container__kalkulator .tombol#nol {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.container .kalkulator .container__kalkulator .tombol.operator {
+  background-color: #d8d8d8;
+}
+
+.container .kalkulator .container__kalkulator .tombol#hitung {
+  color: #fff;
+  background-color: #ffa64a;
+}
+/*# sourceMappingURL=style.css.map */
